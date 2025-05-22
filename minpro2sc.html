@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JKT48 OFFICIAL</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#beranda" class="logo">JKT48</a>
+        <ul class="nav-links">
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#anggota">Anggota</a></li>
+            <li><a href="#jadwal">Jadwal</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <!-- Section Beranda -->
+        <section id="beranda" class="hero-section">
+            <h2>Selamat Datang di JKT48 Official</h2>
+            <p>Situs resmi JKT48! Ikuti kabar terbaru, pertunjukan, dan merchandise eksklusif dari idol grup favorit Indonesia.</p>
+            
+            <div class="hero-image">
+                <img src="logo.jpeg" alt="JKT48 Group">
+            </div>
+            
+            <p>JKT48 adalah sister group resmi AKB48 dari Jepang yang didirikan pada tahun 2011. 
+            Grup ini mengusung konsep "Idola yang dapat kamu temui setiap hari" dengan pertunjukan rutin di JKT48 Theater.</p>
+
+            <div class="cta-buttons">
+                <a href="#jadwal" class="btn">Lihat Jadwal Show</a>
+                <a href="#anggota" class="btn secondary">Lihat Anggota</a>
+            </div>
+        </section>
+
+<section id="tentang" style="padding: 20px;">
+    <div class="about-content">
+        <h2 style="display: block;">Tentang JKT48</h2> <!-- Display: block (default, tapi ditulis eksplisit untuk edukasi) -->
+
+        <p style="display: block;">
+            JKT48 adalah grup idol asal Indonesia yang merupakan sister group dari AKB48 Jepang. 
+            Didirikan pada tahun 2011, JKT48 telah menjadi bagian penting dari industri hiburan Indonesia.
+        </p>
+
+        <!-- Display: inline -->
+        <p>
+            JKT48 dikenal sebagai 
+            <span style="display: inline; background-color: rgba(238, 255, 0, 0.324);">"idola yang dapat kamu temui setiap hari"</span> 
+            karena konsep interaktifnya.
+        </p>
+
+        <!-- Display: inline-block untuk card -->
+        <div class="about-grid" style="text-align: center;">
+            <div class="about-card" style="display: inline-block; width: 85%; margin: 10px; vertical-align: top;">
+                <h3>🎭 Konsep</h3>
+                <p>JKT48 mengusung konsep "Idola yang dapat kamu temui setiap hari" dengan pertunjukan rutin di theater.</p>
+            </div>
+            <div class="about-card" style="display: inline-block; width: 85%; margin: 10px; vertical-align: top;">
+                <h3>🎵 Musik</h3>
+                <p>Grup ini telah merilis berbagai single dan album, termasuk adaptasi dari AKB48 yang disesuaikan dengan budaya Indonesia.</p>
+            </div>
+            <div class="about-card" style="display: inline-block; width: 85%; margin: 10px; vertical-align: top;">
+                <h3>🏢 Theater</h3>
+                <p>JKT48 Theater berlokasi di fX Sudirman, Jakarta Pusat, sebagai tempat pertunjukan rutin dan acara khusus.</p>
+            </div>
+            <div class="about-card" style="display: inline-block; width: 85%; margin: 10px; vertical-align: top;">
+                <h3>🌟 Generasi</h3>
+                <p>JKT48 memiliki banyak generasi member dengan keunikan dan bakat mereka sendiri.</p>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 60px;">
+            <button onclick="document.getElementById('hidden-info').style.display='block'; this.style.display='none';">
+                Fakta Menarik
+            </button>
+            <div id="hidden-info" style="display: none; padding: 20px; background-color: #4e0716a7; margin-top: 20px;">
+                JKT48 adalah grup idol pertama AKB48 yang dibentuk di luar Jepang!
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="anggota">
+            <h2> Anggota JKT48</h2>
+            <p>Kenali para member JKT48 yang berbakat dan penuh semangat</p>
+            <div class="galeri-container">
+                <div class="member" data-title="Zee JKT48" data-description="Azizi Asadel atau yang akrab disapa Zee adalah salah satu member JKT48 yang terkenal dengan kemampuan vokalnya yang kuat." data-generasi="Generasi 7" data-bergabung="2018">
+                    <img src="zee.jpeg" alt="Zee">
+                    <p>Zee</p>
+                </div>
+                <div class="member" data-title="Michie JKT48" data-description="Michelle Alexandra atau Michie dikenal sebagai salah satu member yang bertalenta dalam menari dan memiliki kepribadian yang ceria." data-generasi="Generasi 8" data-bergabung="2019">
+                    <img src="michie.jpeg" alt="Michie">
+                    <p>Michie</p>
+                </div>
+                <div class="member" data-title="Freya JKT48" data-description="Freya Jayawardana merupakan salah satu member JKT48 yang populer dengan penampilan dan kemampuan MC-nya yang luar biasa." data-generasi="Generasi 9" data-bergabung="2020">
+                    <img src="freya.jpg" alt="Freya">
+                    <p>Freya</p>
+                </div>
+                <div class="member" data-title="Christy JKT48" data-description="Christy Chriselle adalah member JKT48 yang terkenal dengan bakatnya dalam bernyanyi dan aktingnya yang mengesankan." data-generasi="Generasi 8" data-bergabung="2019">
+                    <img src="christy.jpeg" alt="Christy">
+                    <p>Christy</p>
+                </div>
+                <div class="member" data-title="Adel JKT48" data-description="Fidly Immanda Azzahra atau Adel dikenal sebagai member dengan kemampuan dance yang energik dan kepribadian yang ramah." data-generasi="Generasi 10" data-bergabung="2021">
+                    <img src="adel.jpeg" alt="Adel">
+                    <p>Adel</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="jadwal">
+            <h2>Jadwal Pertunjukan</h2>
+            <p>Jangan lewatkan pertunjukan dan acara JKT48 mendatang</p>
+            
+            <table class="schedule-table">
+                <thead>
+                    <tr>
+                        <th>Tanggal</th>
+                        <th>Waktu</th>
+                        <th>Acara</th>
+                        <th>Lokasi</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="schedule-date">25 Mei 2025</td>
+                        <td class="schedule-time">19:00 WIB</td>
+                        <td>JKT48 Team KIII "Seifuku no Me"</td>
+                        <td>JKT48 Theater</td>
+                        <td>Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule-date">27 Mei 2025</td>
+                        <td class="schedule-time">15:00 WIB</td>
+                        <td>Meet & Greet Member</td>
+                        <td>JKT48 Theater</td>
+                        <td>Sold Out</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule-date">30 Mei 2025</td>
+                        <td class="schedule-time">19:30 WIB</td>
+                        <td>JKT48 Team J "Fajar Sang Idola"</td>
+                        <td>JKT48 Theater</td>
+                        <td>Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule-date">02 Juni 2025</td>
+                        <td class="schedule-time">18:00 WIB</td>
+                        <td>Handshake Event</td>
+                        <td>Mall Central Park</td>
+                        <td>Tersedia</td>
+                    </tr>
+                    <tr>
+                        <td class="schedule-date">05 Juni 2025</td>
+                        <td class="schedule-time">20:00 WIB</td>
+                        <td>JKT48 Team T "Pajama Drive"</td>
+                        <td>JKT48 Theater</td>
+                        <td>Pre-Sale</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="galeri">
+            <h2>Galeri Foto</h2>
+            <div class="gallery">
+                <img src="zee1.jpeg" alt="Galeri Foto 1">
+                <img src="michie1.jpeg" alt="Galeri Foto 2">
+                <img src="freya1.jpeg" alt="Galeri Foto 3">
+                <img src="christy1.jpeg" alt="Galeri Foto 4">
+                <img src="adel1.jpeg" alt="Galeri Foto 5">
+                <img src="elle.jpeg" alt="Galeri Foto 6">
+                <img src="grace.jpeg" alt="Galeri Foto 7">
+                <img src="marsha.jpeg" alt="Galeri Foto 8">
+                <img src="Melody.jpeg" alt="Galeri Foto 9">
+                <img src="oline.jpeg" alt="Galeri Foto 10">
+                <img src="olla.jpeg" alt="Galeri Foto 11">
+                <img src="shani.jpeg" alt="Galeri Foto 12">
+            </div>
+        </section>
+
+        <section id="kontak">
+            <h2>Hubungi Kami</h2>
+            <p>Ada pertanyaan atau ingin berkolaborasi dengan JKT48? Jangan ragu untuk menghubungi kami!</p>
+            
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label for="nama">Nama Lengkap</label>
+                        <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Alamat Email</label>
+                        <input type="email" id="email" name="email" placeholder="Masukkan alamat email Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subjek">Subjek</label>
+                        <input type="text" id="subjek" name="subjek" placeholder="Subjek pesan Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pesan">Pesan</label>
+                        <textarea id="pesan" name="pesan" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                    </div>
+                    <button type="submit">Kirim Pesan</button>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <h3>Informasi Kontak</h3>
+                <p><strong>📧 Email:</strong> info@jkt48.com</p>
+                <p><strong>📍 Alamat:</strong> JKT48 Theater, fX Sudirman Lt. 4, Jakarta Pusat 10250</p>
+                <p><strong>📞 Telepon:</strong> (021) 123-4567</p>
+                <p><strong>🕒 Jam Operasional:</strong> Senin - Jumat, 09:00 - 18:00 WIB</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Tentang JKT48</h3>
+                <p>JKT48 adalah idol group asal Indonesia yang berafiliasi dengan AKB48 dari Jepang. Dibentuk pada tahun 2011, JKT48 mengusung konsep "Idola yang dapat kamu temui setiap hari" dengan pertunjukan rutin di JKT48 Theater.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Link Penting</h3>
+                <p><a href="#beranda">Beranda</a></p>
+                <p><a href="#tentang">Tentang Kami</a></p>
+                <p><a href="#anggota">Anggota</a></p>
+                <p><a href="#jadwal">Jadwal</a></p>
+                <p><a href="#kontak">Kontak</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Ikuti Kami</h3>
+                <div class="social-links">
+                    <a href="#" title="Facebook">FB</a>
+                    <a href="#" title="Twitter">TW</a>
+                    <a href="#" title="Instagram">IG</a>
+                    <a href="#" title="YouTube">YT</a>
+                </div>
+                <p>Ikuti media sosial kami untuk mendapatkan update terbaru tentang JKT48!</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 JKT48 Official. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
